@@ -23,7 +23,7 @@ brandstudio/recaptcha.php file
     /**
      * Enable/Disable reCAPTCHA
      */
-    'enabled'        => env('BS_RECAPTCHA_ENABLED', true),
+    'enabled'           => env('BS_RECAPTCHA_ENABLED', true),
 
     /**
      * Middleware alias
