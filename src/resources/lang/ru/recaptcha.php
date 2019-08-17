@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'access-denied' => 'Access denied!',
-    'missing-input-secret' => 'The secret parameter is missing.',
-    'invalid-input-secret' => 'The secret parameter is invalid or malformed.',
-    'missing-input-response' => 'The response parameter is missing.',
-    'invalid-input-response' => 'The response parameter is invalid or malformed.',
-    'bad-request' => 'The request is invalid or malformed.',
-    'timeout-or-duplicate' => 'The response is no longer valid: either is too old or has been used previously.',
-    'you-are-a-robot' => "Are you sure you're not a robot?",
+    'access-denied' => 'Доступ закрыт!',
+    'missing-input-secret' => 'Параметр \'secret»\' отсутствует.',
+    'invalid-input-secret' => 'Параметр \'secret\' недействителен или имеет неправильный формат.',
+    'missing-input-response' => 'Параметр \'response\' отсутствует.',
+    'invalid-input-response' => 'Параметр \'response\' недействителен или имеет неправильный формат.',
+    'bad-request' => 'Запрос недействителен или искажен.',
+    'timeout-or-duplicate' => 'Ответ больше не действителен: либо слишком старый, либо использовался ранее.',
+    'you-are-a-robot' => "Вы уверены, что вы не робот?",
 ];
