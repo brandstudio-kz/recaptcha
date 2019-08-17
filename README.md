@@ -89,3 +89,21 @@ Route::middleware([..., 'recaptcha'])->group(function() {
     ...
 );
 ```
+## Hide Google reCAPTCHA badge
+#### In CSS
+```
+.grecaptcha-badge {
+    display: none;
+}
+```
+You are allowed to hide the badge as long as you include the reCAPTCHA
+branding visibly in the user flow. Please include the following text:
+```
+<small>
+    This site is protected by reCAPTCHA and the Google 
+    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+</small>
+```
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/brandstudio-kz/recaptcha/LICENSE.md) file for details
