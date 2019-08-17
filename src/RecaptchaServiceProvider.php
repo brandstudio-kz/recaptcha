@@ -48,9 +48,13 @@ class RecaptchaServiceProvider extends ServiceProvider
     private function publishFiles()
     {
         $this->publishes([
-            __DIR__.'/config/recaptcha.php' => config_path('brandstudio/recaptcha.php'),
-            __DIR__.'/resources/views'      => resource_path('views/vendor/brandstudio'),
-            __DIR__.'/resources/lang'      => resource_path('lang/vendor/brandstudio'),
-        ]);
+            __DIR__.'/config/recaptcha.php' => config_path('brandstudio/recaptcha.php')
+        ], 'config');
+        $this->publishes([
+            __DIR__.'/resources/views'      => resource_path('views/vendor/brandstudio')
+        ], 'views');
+        $this->publishes([
+            __DIR__.'/resources/lang'      => resource_path('lang/vendor/brandstudio')
+        ], 'lang');
     }
 }
