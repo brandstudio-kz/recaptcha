@@ -14,7 +14,7 @@ Or add "brandstudio/recaptcha": "^1.0@dev" to your composer.json
 
 #### 2) Publish the config file (optional)
 ```
-php artisan vendor publish --provider="BrandStudio/Recaptcha/RecaptchaServiceProvider" --tag=config
+php artisan vendor:publish --provider="BrandStudio/Recaptcha/RecaptchaServiceProvider" --tag=config
 ```
 
 ## Configuration
