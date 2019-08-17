@@ -10,7 +10,7 @@
                 input.setAttribute('type', 'hidden');
                 input.setAttribute('name', 'g-recaptcha-response');
 
-                grecaptcha.execute("{{ config('brandstudio.recaptcha.public_key') }}", {action: {{ $action ?? 'undefined' }}}).then((token) => {
+                grecaptcha.execute("{{ config('brandstudio.recaptcha.public_key') }}", {action: {{ $recaptcha_action ?? 'undefined' }}}).then((token) => {
                     input.setAttribute('value', token);
                     form.appendChild(input);
                     form.submit();
