@@ -20,9 +20,11 @@
             "BrandStudio\\Recaptcha\\": "src"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "scripts": {
-        "post-install-cmd": [
-            "php artisan vendor:publish --provider='BrandStudio\\Recaptcha\\RecaptchaServiceProvider' --tag=config"
+        "post-package-install": [
+            "@php artisan vendor:publish --provider=\"BrandStudio\\Recaptcha\\RecaptchaServiceProvider\" --tag=\"config\""
         ]
     },
     "config": {
