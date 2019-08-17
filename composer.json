@@ -22,12 +22,6 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "scripts": {
-        "post-package-install": [
-            "php artisan vendor:publish --provider='BrandStudio\\Recaptcha\\RecaptchaServiceProvider' --tag='config'",
-            "@php artisan vendor:publish --provider='BrandStudio\\Recaptcha\\RecaptchaServiceProvider' --tag='config'"
-        ]
-    },
     "config": {
         "sort-packages": true,
         "preferred-install": "dist"
