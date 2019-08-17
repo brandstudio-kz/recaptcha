@@ -106,4 +106,4 @@ branding visibly in the user flow. Please include the following text:
 </small>
 ```
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/brandstudio-kz/recaptcha/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/brandstudio-kz/recaptcha/blob/master/LICENSE.md) file for details
