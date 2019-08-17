@@ -23,7 +23,13 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-package-install": [
+        "post-install-cmd": [
+            "@php artisan vendor:publish --provider=\"BrandStudio\\Recaptcha\\RecaptchaServiceProvider\" --tag=\"config\""
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --provider=\"BrandStudio\\Recaptcha\\RecaptchaServiceProvider\" --tag=\"config\""
+        ],
+        "post-autoload-dump": [
             "@php artisan vendor:publish --provider=\"BrandStudio\\Recaptcha\\RecaptchaServiceProvider\" --tag=\"config\""
         ]
     },
