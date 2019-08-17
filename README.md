@@ -58,12 +58,14 @@ brandstudio/recaptcha.php file
 /// Or
 @include('brandstudio::recaptcha.scripts', ['recaptcha_action' => 'your-action-name'])
 ```
+See [Google reCAPTCHA actions](https://developers.google.com/recaptcha/docs/v3#actions) for details.
+
 #### In controller
 ```
 public function __construct()
 {
     ...
-    $this->middleware('middleware_name');
+    $this->middleware('recaptcha');
     ...
 }
 ```
@@ -79,7 +81,7 @@ public function __construct()
 
 #### In routes
 ```
-Route::method('/url', 'Controller@function')->middleware('middleware_name');
+Route::method('/url', 'Controller@function')->middleware('recaptcha');
 ```
 Or
 ```
