@@ -1,6 +1,6 @@
 # Brandstudio/Recaptcha
 
-<p align="center">
+<p align="left">
     <a href="https://travis-ci.org/brandstudio-kz/recaptcha"><img src="https://travis-ci.org/brandstudio-kz/recaptcha.svg" alt="Build Status"></a>
     <a href="https://packagist.org/packages/brandstudio/recaptcha"><img src="https://poser.pugx.org/brandstudio/recaptcha/d/total.svg" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/brandstudio/recaptcha"><img src="https://poser.pugx.org/brandstudio/recaptcha/v/stable.svg" alt="Latest Stable Version"></a>
