@@ -1,6 +1,12 @@
 {
     "name": "brandstudio/recaptcha",
     "description": "BrandStudio google recaptcha v3 package",
+    "keywords": [
+        "Laravel",
+        "Laravel reCAPTCHA",
+        "Laravel Google reCAPTCHA v3",
+        "Google reCAPTCHA"
+    ],
     "license": "MIT",
     "homepage": "https://github.com/brandstudio-kz/recaptcha",
     "authors": [
