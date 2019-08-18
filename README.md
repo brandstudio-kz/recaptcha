@@ -1,6 +1,13 @@
 # Brandstudio/Recaptcha
-Simple [Laravel](https://laravel.com/docs/5.8) package for working with [Google reCAPTCHA v3](https://developers.google.com/recaptcha/docs/v3)
 
+<p align="left">
+    <a href="https://travis-ci.org/brandstudio-kz/recaptcha"><img src="https://travis-ci.org/brandstudio-kz/recaptcha.svg" alt="Build Status"></a>
+    <a href="https://packagist.org/packages/brandstudio/recaptcha"><img src="https://poser.pugx.org/brandstudio/recaptcha/d/total.svg" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/brandstudio/recaptcha"><img src="https://poser.pugx.org/brandstudio/recaptcha/v/stable.svg" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/brandstudio/recaptcha"><img src="https://poser.pugx.org/brandstudio/recaptcha/license.svg" alt="License"></a>
+</p>
+
+Simple [Laravel](https://laravel.com/docs/5.8) package for working with [Google reCAPTCHA v3](https://developers.google.com/recaptcha/docs/v3)
 
 ## Getting Started
 
