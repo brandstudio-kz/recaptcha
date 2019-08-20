@@ -25,7 +25,6 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^6.3",
-        "laravel/framework": "^5.4"
     },
     "autoload": {
         "psr-4": {
