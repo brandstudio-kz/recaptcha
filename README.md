@@ -17,7 +17,10 @@ Simple [Laravel](https://laravel.com/docs/5.8) package for working with [Google 
 ```
 composer require brandstudio/recaptcha
 ```
-Or add "brandstudio/recaptcha": "^1.0@dev" to your composer.json
+Or edit composer.json manually 
+```
+"brandstudio/recaptcha": "^1.0@dev" 
+```
 
 #### 2) Publish the config file (optional)
 ```
